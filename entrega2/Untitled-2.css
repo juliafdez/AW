@@ -1,0 +1,34 @@
+#texto{
+    display:none;
+}
+#marcar{
+    display:none;
+    image-orientation: none;
+}
+
+#formulario{
+    display:none;
+}
+
+#eliminar{
+    display: none;
+}
+
+#PDAP{
+    display:flex;
+
+    align-items: center;
+}
+ul{
+    list-style-type: circle;
+}
+#etiquetas{
+    display:flex;
+    
+    align-items: center;
+}
+
+#etiqueta{
+    color: #AFA7A7;
+    margin-left: 5px;
+}

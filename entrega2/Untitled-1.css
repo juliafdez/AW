@@ -1,0 +1,154 @@
+#encabezado{
+    background-color: darkgreen;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#desc{
+    background-color: #F8B015; 
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+
+#user{
+    margin-right: 5px;
+    color: white;
+}
+
+#texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#perfil{
+    margin-right: 10px;
+    border-style: solid;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#Todos{
+	
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 70%;
+	margin-top:20px;
+	font-weight:bold;
+}
+#Preparar{
+	/*distribucion de elementos*/
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	/*estilo fuente, bordes y margenes*/
+	font-weight:bold;
+	border-color:#DA9607;
+	background-color:#F8D076;
+	border-style:solid;
+	margin-bottom:5px;
+	padding-top:10px;
+	padding-bottom: 10px;
+
+
+}
+#PDAP{
+	margin-left:5px;
+	margin-bottom:5px;
+	align-items:center;
+	justify-content: space-between;
+	display: flex;
+	
+}
+#fechas{
+	color:#BBBBBB;
+	margin-left: 5px;
+}
+
+#formulario{
+	background-color:#F8D076;
+	margin-bottom:5px;
+	border-style:solid;
+	border-color:#1E9965;
+	background-color:#A9F3BF;
+	text-align:center;
+	display: flex;
+	justify-content: space-between;
+}
+#eliminar{
+
+	margin-left:515px;
+	margin-right:515px;
+	margin-top:20px;
+	background-color: #F8B015; 
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+}
+#marcar{
+	/*estilo bordes, color y texto*/
+	border-radius: 2px 2px 2px 2px;
+	margin-right:5px;	
+	color:white;
+	background-color:#73330D;
+	text-align:center;
+	
+	
+}
+#boton1{
+	color:white;
+	background-color:#008040;
+	font-weight: bold;
+	margin-left:10px;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+}
+#boton2{
+	background-color: #F8B015; 
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+	font-weight: bold;
+
+
+	
+}
+#textoForm{
+/*	align-content: 100%;*/
+	/*width:1000%;*/
+	width: 30em;
+	margin-left:10px;
+	margin:5px;
+}
+#etiqueta{
+	color:white;
+	background-color:#F90;
+	border-radius: 10px 10px 10px 10px;
+	margin-left:10px;
+	text-align: center;
+}
+#etiquetas{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+
+}
+ul{
+	list-style-type: none;
+}
+
+/*podemos poner anchura y altura fija a la imagen para
+que no salga el borde mal. El profe tampoco sabe porque el borde
+no se ajusta a la foto de perfil.
+La tabla de abajo, NO ES UNA TABLA!! Se hace con divs.
+Cada fila es un div, y todos esos van incluidos en otro div que los contiene.
+No me ha dado tiempo a hacer más. ME PIRO PA ZARAGOZA. un kisssss*/
